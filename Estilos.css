@@ -6,8 +6,13 @@ nav {
     background-color: rosybrown
   }
   
+
   .logo img {
     height: 60px;
+  }
+
+  .logo {
+	color: #fff;
   }
   
   .nav-links {
@@ -61,6 +66,63 @@ nav {
 		flex-basis: 100%;
 	}
 }
+
+#nosotros {
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col-12 {
+	flex-basis: 100%;
+}
+
+.col-12.col-md-4 {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 20px;
+}
+
+.marco {
+	background-color: rosybrown;
+	padding: 20px;
+	height: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.marco h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.marco p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+	.col-12.col-md-4 {
+		flex-basis: 100%;
+	}
+}
+
 
 footer {
 	background-color: rosybrown;

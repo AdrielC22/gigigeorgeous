@@ -1,25 +1,94 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: rosybrown
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rosybrown
+}
+
   .logo img {
-    height: 60px;
-  }
-  
+  height: 60px;
+}
+
+  .logo {
+color: #fff;
+}
+
   .nav-links {
-    display: flex;
-  }
-  
+  display: flex;
+}
+
   .nav-links li {
-    list-style: none;
-  }
-  
+  list-style: none;
+}
+
   .nav-links li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-  }
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+footer {
+	background-color: rosybrown;
+	color: #fff;
+	padding: 50px 0;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.col-12 {
+	flex-basis: 100%;
+}
+
+.col-12.col-md-6 {
+	flex-basis: calc(50% - 20px);
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+form input {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+}
+
+form input[type="submit"] {
+	background-color: #fff;
+	color: #333;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+	.col-12.col-md-6 {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+	}
+}

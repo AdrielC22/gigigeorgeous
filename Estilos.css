@@ -59,6 +59,7 @@ nav {
 	margin-top: 20px;
 	font-size: 24px;
 	font-weight: bold;
+	color: rosybrown;
 }
 
 @media screen and (max-width: 600px) {

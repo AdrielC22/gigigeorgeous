@@ -182,6 +182,10 @@ form input[type="submit"] {
 	cursor: pointer;
 }
 
+.avisos{
+	font-size: small;
+}
+
 @media screen and (max-width: 767px) {
 	.col-12.col-md-6 {
 		flex-basis: 100%;
